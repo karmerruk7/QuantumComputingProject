@@ -10,10 +10,10 @@ The Sudoku constraints are encoded into qubits and implemented as a reversible p
   Main Jupyter notebook containing the circuit implementation, experiments, and explanatory notes.
 
 - `Ideal_Circuit_Design_and_a_Simple_Error_Corrected_Extension.pdf`  
-  Write-up for the 2×2 Sudoku Grover circuit, including qubit encoding, reversible oracle construction, diffusion, and the three-qubit repetition-code extension.  [oai_citation:0‡Ideal_Circuit_Design_and_a_Simple_Error_Corrected_Extension.pdf](sediment://file_00000000edc871f5b3af6d6a88828da7)  [oai_citation:1‡Ideal_Circuit_Design_and_a_Simple_Error_Corrected_Extension.pdf](sediment://file_00000000edc871f5b3af6d6a88828da7)
-
+  Write-up for the 2×2 Sudoku Grover circuit, including qubit encoding, reversible oracle construction, diffusion, and the three-qubit repetition-code extension.
+  
 - `Optimal_Runtime_of_Noisy_Amplitude_Amplification_from_Spectral_Stability.pdf`  
-  Theory note on noisy Grover dynamics, spectral stability of the noisy iterate, and the resulting optimal runtime tradeoff under per-step noise.  [oai_citation:2‡Optimal_Runtime_of_Noisy_Amplitude_Amplification_from_Spectral_Stability.pdf](sediment://file_00000000581c71f7b7f527388d2a61d5)  [oai_citation:3‡Optimal_Runtime_of_Noisy_Amplitude_Amplification_from_Spectral_Stability.pdf](sediment://file_00000000581c71f7b7f527388d2a61d5)
+  Theory note on noisy Grover dynamics, spectral stability of the noisy iterate, and the resulting optimal runtime tradeoff under per-step noise.  
 
 ## Features
 
@@ -21,25 +21,25 @@ The Sudoku constraints are encoded into qubits and implemented as a reversible p
   Implements Grover’s algorithm for a 2×2 Sudoku search problem.
 
 - **2×2 Sudoku encoded into qubits**  
-  Represents the puzzle as a 4-qubit search space with a unique valid assignment.  [oai_citation:4‡Ideal_Circuit_Design_and_a_Simple_Error_Corrected_Extension.pdf](sediment://file_00000000edc871f5b3af6d6a88828da7)
+  Represents the puzzle as a 4-qubit search space with a unique valid assignment. 
 
 - **Reversible oracle construction**  
-  Encodes Sudoku constraints into ancillas and applies phase kickback to mark the valid solution.  [oai_citation:5‡Ideal_Circuit_Design_and_a_Simple_Error_Corrected_Extension.pdf](sediment://file_00000000edc871f5b3af6d6a88828da7)
+  Encodes Sudoku constraints into ancillas and applies phase kickback to mark the valid solution.  
 
 - **Diffusion operator implementation**  
-  Applies the Grover diffusion step to amplify the marked state.  [oai_citation:6‡Ideal_Circuit_Design_and_a_Simple_Error_Corrected_Extension.pdf](sediment://file_00000000edc871f5b3af6d6a88828da7)
+  Applies the Grover diffusion step to amplify the marked state. 
 
 - **Jupyter notebook notes**  
   Includes notebook-based code and explanations alongside the formal PDF write-ups.
 
 - **Three-qubit repetition code**  
-  Extends the circuit with a simple bit-flip error-correcting code on the data qubits.  [oai_citation:7‡Ideal_Circuit_Design_and_a_Simple_Error_Corrected_Extension.pdf](sediment://file_00000000edc871f5b3af6d6a88828da7)
+  Extends the circuit with a simple bit-flip error-correcting code on the data qubits. 
 
 - **Error-corrected Grover circuit**  
-  Replaces each data qubit with an encoded logical block and inserts syndrome checks between major steps.  [oai_citation:8‡Ideal_Circuit_Design_and_a_Simple_Error_Corrected_Extension.pdf](sediment://file_00000000edc871f5b3af6d6a88828da7)
+  Replaces each data qubit with an encoded logical block and inserts syndrome checks between major steps. 
 
 - **Noisy Grover analysis**  
-  Studies Grover under per-iteration CPTP noise and derives the damped-rotation picture and optimal stopping time \(T^* \asymp \min(1/\theta, 1/p)\).  [oai_citation:9‡Optimal_Runtime_of_Noisy_Amplitude_Amplification_from_Spectral_Stability.pdf](sediment://file_00000000581c71f7b7f527388d2a61d5)  [oai_citation:10‡Optimal_Runtime_of_Noisy_Amplitude_Amplification_from_Spectral_Stability.pdf](sediment://file_00000000581c71f7b7f527388d2a61d5)
+  Studies Grover under per-iteration CPTP noise and derives the damped-rotation picture and optimal stopping time \(T^* \asymp \min(1/\theta, 1/p)\). 
 
 ## Installation
 
